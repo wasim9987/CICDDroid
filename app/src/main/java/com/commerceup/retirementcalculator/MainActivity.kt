@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        AppCenter.start(application, "7df3e765-f616-4e29-990b-27f7e7534cb9", Analytics::class.java, Crashes::class.java)
+        AppCenter.start(application, "7787d1d5-ae3a-42a0-9367-50512c8a57c0", Analytics::class.java, Crashes::class.java)
 
         calculateButton.setOnClickListener {
 //            Crashes.generateTestCrash();
